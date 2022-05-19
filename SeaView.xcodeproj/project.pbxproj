@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0497BF28368B4D00CB1894 /* SeaViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497BE28368B4D00CB1894 /* SeaViewApp.swift */; };
+		CA0497C128368B4D00CB1894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497C028368B4D00CB1894 /* ContentView.swift */; };
+		CA0497C328368B4F00CB1894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0497C228368B4F00CB1894 /* Assets.xcassets */; };
+		CA0497C628368B4F00CB1894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0497C528368B4F00CB1894 /* Preview Assets.xcassets */; };
+		CA0497D028368B4F00CB1894 /* SeaViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497CF28368B4F00CB1894 /* SeaViewTests.swift */; };
+		CA0497DA28368B4F00CB1894 /* SeaViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497D928368B4F00CB1894 /* SeaViewUITests.swift */; };
+		CA0497DC28368B4F00CB1894 /* SeaViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497DB28368B4F00CB1894 /* SeaViewUITestsLaunchTests.swift */; };
+		CA0497E028368B4F00CB1894 /* SeaView WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA0497DF28368B4F00CB1894 /* SeaView WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA0497E528368B5000CB1894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0497E428368B5000CB1894 /* Assets.xcassets */; };
+		CA0497EB28368B5000CB1894 /* SeaView WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA0497EA28368B5000CB1894 /* SeaView WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA0497F028368B5000CB1894 /* SeaViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497EF28368B5000CB1894 /* SeaViewApp.swift */; };
+		CA0497F228368B5000CB1894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497F128368B5000CB1894 /* ContentView.swift */; };
+		CA0497F428368B5000CB1894 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497F328368B5000CB1894 /* NotificationController.swift */; };
+		CA0497F628368B5000CB1894 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497F528368B5000CB1894 /* NotificationView.swift */; };
+		CA0497F828368B5000CB1894 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0497F728368B5000CB1894 /* ComplicationController.swift */; };
+		CA0497FA28368B5000CB1894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0497F928368B5000CB1894 /* Assets.xcassets */; };
+		CA0497FD28368B5000CB1894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0497FC28368B5000CB1894 /* Preview Assets.xcassets */; };
+		CA04980928368B5000CB1894 /* SeaView_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA04980828368B5000CB1894 /* SeaView_WatchKit_AppTests.swift */; };
+		CA04981328368B5000CB1894 /* SeaView_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA04981228368B5000CB1894 /* SeaView_WatchKit_AppUITests.swift */; };
+		CA04981528368B5000CB1894 /* SeaView_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA04981428368B5000CB1894 /* SeaView_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0497CC28368B4F00CB1894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0497B328368B4D00CB1894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0497BA28368B4D00CB1894;
+			remoteInfo = SeaView;
+		};
+		CA0497D628368B4F00CB1894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0497B328368B4D00CB1894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0497BA28368B4D00CB1894;
+			remoteInfo = SeaView;
+		};
+		CA0497E128368B4F00CB1894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0497B328368B4D00CB1894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0497DE28368B4F00CB1894;
+			remoteInfo = "SeaView WatchKit App";
+		};
+		CA0497EC28368B5000CB1894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0497B328368B4D00CB1894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0497E928368B5000CB1894;
+			remoteInfo = "SeaView WatchKit Extension";
+		};
+		CA04980528368B5000CB1894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0497B328368B4D00CB1894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0497E928368B5000CB1894;
+			remoteInfo = "SeaView WatchKit Extension";
+		};
+		CA04980F28368B5000CB1894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0497B328368B4D00CB1894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0497DE28368B4F00CB1894;
+			remoteInfo = "SeaView WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA04981B28368B5000CB1894 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA0497EB28368B5000CB1894 /* SeaView WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04981F28368B5000CB1894 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CA0497E028368B4F00CB1894 /* SeaView WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA0497BB28368B4D00CB1894 /* SeaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0497BE28368B4D00CB1894 /* SeaViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaViewApp.swift; sourceTree = "<group>"; };
+		CA0497C028368B4D00CB1894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA0497C228368B4F00CB1894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0497C528368B4F00CB1894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA0497CB28368B4F00CB1894 /* SeaViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0497CF28368B4F00CB1894 /* SeaViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaViewTests.swift; sourceTree = "<group>"; };
+		CA0497D528368B4F00CB1894 /* SeaViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0497D928368B4F00CB1894 /* SeaViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaViewUITests.swift; sourceTree = "<group>"; };
+		CA0497DB28368B4F00CB1894 /* SeaViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA0497DF28368B4F00CB1894 /* SeaView WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeaView WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0497E428368B5000CB1894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0497EA28368B5000CB1894 /* SeaView WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SeaView WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0497EF28368B5000CB1894 /* SeaViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaViewApp.swift; sourceTree = "<group>"; };
+		CA0497F128368B5000CB1894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA0497F328368B5000CB1894 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CA0497F528368B5000CB1894 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		CA0497F728368B5000CB1894 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CA0497F928368B5000CB1894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0497FC28368B5000CB1894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA0497FE28368B5000CB1894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0497FF28368B5000CB1894 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CA04980428368B5000CB1894 /* SeaView WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeaView WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA04980828368B5000CB1894 /* SeaView_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaView_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		CA04980E28368B5000CB1894 /* SeaView WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeaView WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA04981228368B5000CB1894 /* SeaView_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaView_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		CA04981428368B5000CB1894 /* SeaView_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaView_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0497B828368B4D00CB1894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497C828368B4F00CB1894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497D228368B4F00CB1894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497E728368B5000CB1894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04980128368B5000CB1894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04980B28368B5000CB1894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0497B228368B4D00CB1894 = {
+			isa = PBXGroup;
+			children = (
+				CA0497BD28368B4D00CB1894 /* SeaView */,
+				CA0497CE28368B4F00CB1894 /* SeaViewTests */,
+				CA0497D828368B4F00CB1894 /* SeaViewUITests */,
+				CA0497E328368B4F00CB1894 /* SeaView WatchKit App */,
+				CA0497EE28368B5000CB1894 /* SeaView WatchKit Extension */,
+				CA04980728368B5000CB1894 /* SeaView WatchKit AppTests */,
+				CA04981128368B5000CB1894 /* SeaView WatchKit AppUITests */,
+				CA0497BC28368B4D00CB1894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0497BC28368B4D00CB1894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497BB28368B4D00CB1894 /* SeaView.app */,
+				CA0497CB28368B4F00CB1894 /* SeaViewTests.xctest */,
+				CA0497D528368B4F00CB1894 /* SeaViewUITests.xctest */,
+				CA0497DF28368B4F00CB1894 /* SeaView WatchKit App.app */,
+				CA0497EA28368B5000CB1894 /* SeaView WatchKit Extension.appex */,
+				CA04980428368B5000CB1894 /* SeaView WatchKit AppTests.xctest */,
+				CA04980E28368B5000CB1894 /* SeaView WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0497BD28368B4D00CB1894 /* SeaView */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497BE28368B4D00CB1894 /* SeaViewApp.swift */,
+				CA0497C028368B4D00CB1894 /* ContentView.swift */,
+				CA0497C228368B4F00CB1894 /* Assets.xcassets */,
+				CA0497C428368B4F00CB1894 /* Preview Content */,
+			);
+			path = SeaView;
+			sourceTree = "<group>";
+		};
+		CA0497C428368B4F00CB1894 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497C528368B4F00CB1894 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA0497CE28368B4F00CB1894 /* SeaViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497CF28368B4F00CB1894 /* SeaViewTests.swift */,
+			);
+			path = SeaViewTests;
+			sourceTree = "<group>";
+		};
+		CA0497D828368B4F00CB1894 /* SeaViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497D928368B4F00CB1894 /* SeaViewUITests.swift */,
+				CA0497DB28368B4F00CB1894 /* SeaViewUITestsLaunchTests.swift */,
+			);
+			path = SeaViewUITests;
+			sourceTree = "<group>";
+		};
+		CA0497E328368B4F00CB1894 /* SeaView WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497E428368B5000CB1894 /* Assets.xcassets */,
+			);
+			path = "SeaView WatchKit App";
+			sourceTree = "<group>";
+		};
+		CA0497EE28368B5000CB1894 /* SeaView WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497EF28368B5000CB1894 /* SeaViewApp.swift */,
+				CA0497F128368B5000CB1894 /* ContentView.swift */,
+				CA0497F328368B5000CB1894 /* NotificationController.swift */,
+				CA0497F528368B5000CB1894 /* NotificationView.swift */,
+				CA0497F728368B5000CB1894 /* ComplicationController.swift */,
+				CA0497F928368B5000CB1894 /* Assets.xcassets */,
+				CA0497FE28368B5000CB1894 /* Info.plist */,
+				CA0497FF28368B5000CB1894 /* PushNotificationPayload.apns */,
+				CA0497FB28368B5000CB1894 /* Preview Content */,
+			);
+			path = "SeaView WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CA0497FB28368B5000CB1894 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA0497FC28368B5000CB1894 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA04980728368B5000CB1894 /* SeaView WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA04980828368B5000CB1894 /* SeaView_WatchKit_AppTests.swift */,
+			);
+			path = "SeaView WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		CA04981128368B5000CB1894 /* SeaView WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA04981228368B5000CB1894 /* SeaView_WatchKit_AppUITests.swift */,
+				CA04981428368B5000CB1894 /* SeaView_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "SeaView WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0497BA28368B4D00CB1894 /* SeaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04982028368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView" */;
+			buildPhases = (
+				CA0497B728368B4D00CB1894 /* Sources */,
+				CA0497B828368B4D00CB1894 /* Frameworks */,
+				CA0497B928368B4D00CB1894 /* Resources */,
+				CA04981F28368B5000CB1894 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0497E228368B4F00CB1894 /* PBXTargetDependency */,
+			);
+			name = SeaView;
+			productName = SeaView;
+			productReference = CA0497BB28368B4D00CB1894 /* SeaView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0497CA28368B4F00CB1894 /* SeaViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04982328368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaViewTests" */;
+			buildPhases = (
+				CA0497C728368B4F00CB1894 /* Sources */,
+				CA0497C828368B4F00CB1894 /* Frameworks */,
+				CA0497C928368B4F00CB1894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0497CD28368B4F00CB1894 /* PBXTargetDependency */,
+			);
+			name = SeaViewTests;
+			productName = SeaViewTests;
+			productReference = CA0497CB28368B4F00CB1894 /* SeaViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA0497D428368B4F00CB1894 /* SeaViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04982628368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaViewUITests" */;
+			buildPhases = (
+				CA0497D128368B4F00CB1894 /* Sources */,
+				CA0497D228368B4F00CB1894 /* Frameworks */,
+				CA0497D328368B4F00CB1894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0497D728368B4F00CB1894 /* PBXTargetDependency */,
+			);
+			name = SeaViewUITests;
+			productName = SeaViewUITests;
+			productReference = CA0497D528368B4F00CB1894 /* SeaViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CA0497DE28368B4F00CB1894 /* SeaView WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04981C28368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit App" */;
+			buildPhases = (
+				CA0497DD28368B4F00CB1894 /* Resources */,
+				CA04981B28368B5000CB1894 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0497ED28368B5000CB1894 /* PBXTargetDependency */,
+			);
+			name = "SeaView WatchKit App";
+			productName = "SeaView WatchKit App";
+			productReference = CA0497DF28368B4F00CB1894 /* SeaView WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CA0497E928368B5000CB1894 /* SeaView WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04981828368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit Extension" */;
+			buildPhases = (
+				CA0497E628368B5000CB1894 /* Sources */,
+				CA0497E728368B5000CB1894 /* Frameworks */,
+				CA0497E828368B5000CB1894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SeaView WatchKit Extension";
+			productName = "SeaView WatchKit Extension";
+			productReference = CA0497EA28368B5000CB1894 /* SeaView WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		CA04980328368B5000CB1894 /* SeaView WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04982928368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit AppTests" */;
+			buildPhases = (
+				CA04980028368B5000CB1894 /* Sources */,
+				CA04980128368B5000CB1894 /* Frameworks */,
+				CA04980228368B5000CB1894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA04980628368B5000CB1894 /* PBXTargetDependency */,
+			);
+			name = "SeaView WatchKit AppTests";
+			productName = "SeaView WatchKit AppTests";
+			productReference = CA04980428368B5000CB1894 /* SeaView WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA04980D28368B5000CB1894 /* SeaView WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA04982C28368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit AppUITests" */;
+			buildPhases = (
+				CA04980A28368B5000CB1894 /* Sources */,
+				CA04980B28368B5000CB1894 /* Frameworks */,
+				CA04980C28368B5000CB1894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA04981028368B5000CB1894 /* PBXTargetDependency */,
+			);
+			name = "SeaView WatchKit AppUITests";
+			productName = "SeaView WatchKit AppUITests";
+			productReference = CA04980E28368B5000CB1894 /* SeaView WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0497B328368B4D00CB1894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CA0497BA28368B4D00CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CA0497CA28368B4F00CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CA0497BA28368B4D00CB1894;
+					};
+					CA0497D428368B4F00CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CA0497BA28368B4D00CB1894;
+					};
+					CA0497DE28368B4F00CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CA0497E928368B5000CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CA04980328368B5000CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CA0497E928368B5000CB1894;
+					};
+					CA04980D28368B5000CB1894 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CA0497DE28368B4F00CB1894;
+					};
+				};
+			};
+			buildConfigurationList = CA0497B628368B4D00CB1894 /* Build configuration list for PBXProject "SeaView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0497B228368B4D00CB1894;
+			productRefGroup = CA0497BC28368B4D00CB1894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0497BA28368B4D00CB1894 /* SeaView */,
+				CA0497CA28368B4F00CB1894 /* SeaViewTests */,
+				CA0497D428368B4F00CB1894 /* SeaViewUITests */,
+				CA0497DE28368B4F00CB1894 /* SeaView WatchKit App */,
+				CA0497E928368B5000CB1894 /* SeaView WatchKit Extension */,
+				CA04980328368B5000CB1894 /* SeaView WatchKit AppTests */,
+				CA04980D28368B5000CB1894 /* SeaView WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0497B928368B4D00CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497C628368B4F00CB1894 /* Preview Assets.xcassets in Resources */,
+				CA0497C328368B4F00CB1894 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497C928368B4F00CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497D328368B4F00CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497DD28368B4F00CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497E528368B5000CB1894 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497E828368B5000CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497FD28368B5000CB1894 /* Preview Assets.xcassets in Resources */,
+				CA0497FA28368B5000CB1894 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04980228368B5000CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04980C28368B5000CB1894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0497B728368B4D00CB1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497C128368B4D00CB1894 /* ContentView.swift in Sources */,
+				CA0497BF28368B4D00CB1894 /* SeaViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497C728368B4F00CB1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497D028368B4F00CB1894 /* SeaViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497D128368B4F00CB1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497DA28368B4F00CB1894 /* SeaViewUITests.swift in Sources */,
+				CA0497DC28368B4F00CB1894 /* SeaViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0497E628368B5000CB1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0497F428368B5000CB1894 /* NotificationController.swift in Sources */,
+				CA0497F228368B5000CB1894 /* ContentView.swift in Sources */,
+				CA0497F828368B5000CB1894 /* ComplicationController.swift in Sources */,
+				CA0497F028368B5000CB1894 /* SeaViewApp.swift in Sources */,
+				CA0497F628368B5000CB1894 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04980028368B5000CB1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA04980928368B5000CB1894 /* SeaView_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA04980A28368B5000CB1894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA04981528368B5000CB1894 /* SeaView_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				CA04981328368B5000CB1894 /* SeaView_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0497CD28368B4F00CB1894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0497BA28368B4D00CB1894 /* SeaView */;
+			targetProxy = CA0497CC28368B4F00CB1894 /* PBXContainerItemProxy */;
+		};
+		CA0497D728368B4F00CB1894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0497BA28368B4D00CB1894 /* SeaView */;
+			targetProxy = CA0497D628368B4F00CB1894 /* PBXContainerItemProxy */;
+		};
+		CA0497E228368B4F00CB1894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0497DE28368B4F00CB1894 /* SeaView WatchKit App */;
+			targetProxy = CA0497E128368B4F00CB1894 /* PBXContainerItemProxy */;
+		};
+		CA0497ED28368B5000CB1894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0497E928368B5000CB1894 /* SeaView WatchKit Extension */;
+			targetProxy = CA0497EC28368B5000CB1894 /* PBXContainerItemProxy */;
+		};
+		CA04980628368B5000CB1894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0497E928368B5000CB1894 /* SeaView WatchKit Extension */;
+			targetProxy = CA04980528368B5000CB1894 /* PBXContainerItemProxy */;
+		};
+		CA04981028368B5000CB1894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0497DE28368B4F00CB1894 /* SeaView WatchKit App */;
+			targetProxy = CA04980F28368B5000CB1894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA04981628368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA04981728368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CA04981928368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeaView WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SeaView WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SeaView WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaView.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		CA04981A28368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeaView WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SeaView WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SeaView WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaView.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		CA04981D28368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SeaView_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SeaView WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.whitesquall.SeaView;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaView.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		CA04981E28368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SeaView_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SeaView WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.whitesquall.SeaView;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaView.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		CA04982128368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeaView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA04982228368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeaView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA04982428368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaView.app/SeaView";
+			};
+			name = Debug;
+		};
+		CA04982528368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaView.app/SeaView";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA04982728368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeaView;
+			};
+			name = Debug;
+		};
+		CA04982828368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitesquall.SeaViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeaView;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA04982A28368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitesquall.SeaView-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaView WatchKit Extension.appex/SeaView WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		CA04982B28368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitesquall.SeaView-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaView WatchKit Extension.appex/SeaView WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		CA04982D28368B5000CB1894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitesquall.SeaView-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SeaView WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		CA04982E28368B5000CB1894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitesquall.SeaView-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SeaView WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0497B628368B4D00CB1894 /* Build configuration list for PBXProject "SeaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04981628368B5000CB1894 /* Debug */,
+				CA04981728368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04981828368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04981928368B5000CB1894 /* Debug */,
+				CA04981A28368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04981C28368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04981D28368B5000CB1894 /* Debug */,
+				CA04981E28368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04982028368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04982128368B5000CB1894 /* Debug */,
+				CA04982228368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04982328368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04982428368B5000CB1894 /* Debug */,
+				CA04982528368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04982628368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04982728368B5000CB1894 /* Debug */,
+				CA04982828368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04982928368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04982A28368B5000CB1894 /* Debug */,
+				CA04982B28368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA04982C28368B5000CB1894 /* Build configuration list for PBXNativeTarget "SeaView WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA04982D28368B5000CB1894 /* Debug */,
+				CA04982E28368B5000CB1894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0497B328368B4D00CB1894 /* Project object */;
+}
